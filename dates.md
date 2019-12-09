@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Redes
+title: Datos
 ---
 
 <div class="home" id="home">

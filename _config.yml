@@ -12,12 +12,12 @@ plugins: [jekyll-paginate]
 paginate: 5
 
 navigation:
-  - title: Home
+  - title: Redes
     url: /index.html
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
+  - title: Comunicaciones
+    url: /comunication
+  - title: Datos
+    url: /dates
 
 social:
   github: brianmaierjr

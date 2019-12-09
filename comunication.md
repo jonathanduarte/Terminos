@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Redes
+title: Comunicaciones
 ---
 
 <div class="home" id="home">
