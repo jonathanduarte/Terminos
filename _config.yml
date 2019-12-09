@@ -1,8 +1,8 @@
 title: Electiva V
 description: Electiva 5
 
-url: ""
-baseurl: ""
+url: "http://jonathanduarte.rocks/redes/"
+baseurl: "redes/"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
