@@ -20,13 +20,11 @@ navigation:
     url: /dates
 
 social:
-  github: brianmaierjr
-  twitter: brianmaierjr
-  facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
+  github: jonathanduarte
+  email: mrduarte55@gmail.com
 
 collections:
-  conicaciones:
+  comunicaciones:
     output: true
   datos:
     output: true
