@@ -7,6 +7,7 @@
 
     <!-- Open Graph Meta -->
     <meta content="{{ site.title }}" property="og:site_name">
+    <meta content="{{ site.title }}" property="og:title">
     {% if page.title %}
       <meta content="{{ page.title }}" property="og:title">
     {% else %}
@@ -32,13 +33,14 @@
     {% if page.image %}
       <meta content="{{ site.url }}/assets/img/{{ page.image }}" property="og:image">
     {% else %}
-      <meta content="{{ '/assets/img/touring.jpg' | prepend: site.url }}" property="og:image">
+      <meta content="{{ '/assets/img/jhon.jpg' | prepend: site.url }}" property="og:image">
     {% endif %}
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="@{{ site.social.twitter }}">
     <meta name="twitter:creator" content="@{{ site.social.twitter }}">
+    <meta name="twitter:title" content="{{ site.title }}">
     {% if page.title %}
       <meta name="twitter:title" content="{{ page.title }}">
     {% endif %}  
