@@ -2,7 +2,7 @@ title: Términos
 description: Aquí escribo lo que aprendo en el día a día. 
 
 url: "http://jonathanduarte.rocks/Terminos"
-baseurl: ""
+baseurl: "http://jonathanduarte.rocks/Terminos"
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
@@ -18,9 +18,3 @@ navigation:
 social:
   github: jonathanduarte
   email: mrduarte55@gmail.com
-
-collections:
-  comunicaciones:
-    output: true
-  datos:
-    output: true
