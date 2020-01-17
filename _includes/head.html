@@ -41,9 +41,8 @@
     <meta name="twitter:creator" content="@{{ site.social.twitter }}">
     {% if page.title %}
       <meta name="twitter:title" content="{{ page.title }}">
-    {% else %}
+    {% endif %}  
       <meta name="twitter:title" content="{{ site.title }}">
-    {% endif %}
     {% if page.url %}
       <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
     {% endif %}
@@ -55,7 +54,7 @@
     {% if page.image %}
       <meta name="twitter:image:src" content="{{ site.url }}/assets/img/{{ page.image }}">
     {% else %}
-      <meta name="twitter:image:src" content="{{ '/assets/img/touring.jpg' | prepend: site.url }}">
+      <meta name="twitter:image:src" content="{{ '/assets/img/jhon.jpg' | prepend: site.url }}">
     {% endif %}
 
 
