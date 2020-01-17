@@ -3,6 +3,7 @@ description: Aquí escribo lo que aprendo en el día a día.
 
 url: "http://jonathanduarte.rocks/Terminos"
 baseurl: "http://jonathanduarte.rocks/Terminos"
+# baseurl: ""
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 
@@ -18,3 +19,4 @@ navigation:
 social:
   github: jonathanduarte
   email: mrduarte55@gmail.com
+  twitter: https://twitter.com/jodayc055
