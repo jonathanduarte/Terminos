@@ -10,7 +10,7 @@ description: Differential Loading es un proceso mediante el cual el navegador el
 
 Differential Loading es un proceso mediante el cual el navegador elige entre Javascript moderno o heredado en función de sus propias capacidades, es decir, se crean dos paquetes a compilar uno para los navegadores modernos que permiten ecma 2015 y un paquete para navegadores no tan nuevos que solo admiten la versión de ES5 de Javascript.
 
-El navegador cargará automáticamente el paquete que le corresponda, gracias al soporte de los módulos de ES6 en los navegadores más nuevos, por lo que tendrán que cargar menos código y cargar una cantidad mucho menor de polyfills.
+El navegador cargará automáticamente el paquete que le corresponda, gracias al soporte de los módulos de ES5 en los navegadores más nuevos, por lo que tendrán que cargar menos código y cargar una cantidad mucho menor de polyfills.
 
 Pregunta. Qué es un polyfill?
 
