@@ -1,6 +1,6 @@
 {% if page.shared-text %}
 <a class="float" target="_blank"
-href="https://twitter.com/intent/tweet?text={{page.shared-text}} {{ page.url }}">
+href="https://twitter.com/intent/tweet?text={{page.shared-text}} {{ page.url | prepend: site.baseurl }}">
   <i class="fa fa-twitter my-float"></i>
 </a>
 {% endif %}
