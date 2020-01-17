@@ -4,7 +4,7 @@ title:  "Differential Loading"
 date:   2020-01-17
 Author: Jonathan Duarte
 shared-text: "Sabes lo que es Differential Loading? te invito a leer sobre el tema en:"
-description: Differential loading
+description: Differential Loading es un proceso mediante el cual el navegador elige entre Javascript moderno o heredado en función de sus propias capacidades, es decir se crean dos paquetes a compilar uno para los navegadores modernos que permiten ecma 2015 y un paquete para navegadores no tan nuevos que solo admiten la versión de ES5 de Javascript.
 ---
 
 
